@@ -1,0 +1,18 @@
+Package: montyhall
+Title: A Simulation of the Let's Make A Deal Game Where Contestants Pick a Door and Win a Car or Goat
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Amy",
+           family = "Trumpower",
+           role = c("aut", "cre"),
+           email = "attrumpo@asu.edu",
+           comment = c(ORCID = "0000-0003-4945-9069"))
+Description:This package simulates the Let's Make a Deal game where a contestant is shown 3 doors and picks one door. Then the host, Monty Hall opens one of the other doors to reveal a goat. Finally the user is presented with the option to switch to the other unopened door. Behind one remaining door is a car and the other is another goat. This simulation revolves around the much debated Monty Hall game.  question: what has the higher probability of a positive outcome, keeping the initial selection or switching to the other door.
+Depends: 
+   dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
